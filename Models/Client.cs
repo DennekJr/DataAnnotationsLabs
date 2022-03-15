@@ -5,7 +5,7 @@ namespace DataAnnotations.Models
     public class Client
     {
         public int Id { get; set; }
-
+      
         [StringLength(25, MinimumLength = 3, ErrorMessage = "Name must be between 3 -25 characters")]
         public string FirstName { get; set; }
 
